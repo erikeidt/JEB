@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<!-- Configuration of the Ant build system to generate a Jar file --> 
+<project name="Build JAR" default="CreateJar">
+  <target name="CreateJar" description="Create Jar file">
+        <jar jarfile="./JEB.jar">
+			<fileset dir="./" includes="**/*.class" />
+			<fileset dir="./../" includes="*.txt" />
+			<fileset dir="./../" includes="README*" />
+		</jar>
+  </target>
+</project>
