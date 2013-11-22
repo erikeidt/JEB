@@ -87,7 +87,7 @@ public class Workbooks extends Dispatch {
 
 	public Workbook Open ( String wkbName ) {
 		try {
-			Variant v = DispatchAddon.get1p ( this, "Open", wkbName );
+			Variant v = DispatchAddon.get2p ( this, "Open", wkbName , 0x00);
 			if ( v == null || v.isNull () )
 				return null;
 			Dispatch d = v.toDispatch ();

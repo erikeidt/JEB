@@ -3,7 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="JACOB"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="JACOB/JACOB/jacob.jar">
+	<classpathentry kind="lib" path="JACOB/JACOB/jacob.jar" sourcepath="JACOB/JACOB/jacob.jar">
 		<attributes>
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="JEB/JACOB/JACOB"/>
 		</attributes>
