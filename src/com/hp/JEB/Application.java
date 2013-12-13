@@ -149,7 +149,6 @@ public class Application {
 
 	public static void StatusBar ( String msg ) {
 		// Dispatch.put(xa, "StatusBar", msg);
-		System.out.println(msg);
 		Dispatch.put ( xa, 0x182, msg );
 	}
 
